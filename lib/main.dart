@@ -1,7 +1,7 @@
 import 'dart:js';
 
 import 'package:flutter/material.dart';
-import 'package:radhika_details/fetch.dart';
+
 import 'package:radhika_details/pages/onboarding_page.dart';
 import 'package:radhika_details/pages/welcome.dart';
 import 'package:radhika_details/screens/mainscreen.dart';

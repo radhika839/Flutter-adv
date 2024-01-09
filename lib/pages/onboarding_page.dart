@@ -15,26 +15,33 @@ class _OnboardingPageState extends State<OnboardingPage> {
       showNextButton: false,
       pages: [
         PageViewModel(
-            title: 'Train Your Body \n And Mind',
-            body:
-                'Fitness is not about being better than someone else. It’s about being better than you used to be.',
             image: Image.asset(
-              'assets/images/fitnessimage5.jpg',
+              'assets/images/travel.png',
               width: 300,
+            ),
+            titleWidget: Text(
+              'BookNow',
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                  color: Colors.black),
+            ),
+            bodyWidget: Text(
+              'Quick and easy to travel anywhere and anytime',
+              style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
             ),
             decoration: PageDecoration(
               titleTextStyle:
                   TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
-              bodyTextStyle: TextStyle(fontSize: 15),
               titlePadding: EdgeInsets.all(0).copyWith(bottom: 0),
-              bodyPadding: EdgeInsets.all(19).copyWith(bottom: 0),
+              bodyPadding: EdgeInsets.fromLTRB(40, 30, 40, 0),
             )),
         PageViewModel(
-            title: 'Train Your Body \n And Mind',
+            title: 'Book your onlinebus ticket',
             body:
-                'Fitness is not about being better than someone else. It’s about being better than you used to be.',
+                'Book your ticket for a long journey in the comfort of your home,anytime,anywhere anyday',
             image: Image.asset(
-              'assets/images/fitnessimage5.jpg',
+              'assets/images/bus.jpg',
               width: 300,
             ),
             decoration: PageDecoration(

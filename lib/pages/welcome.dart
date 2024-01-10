@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:radhika_details/pages/account.dart';
+import 'package:radhika_details/pages/booking.dart';
 import 'package:radhika_details/pages/help.dart';
 import 'package:radhika_details/pages/home.dart';
-import 'package:radhika_details/pages/Bookings.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});

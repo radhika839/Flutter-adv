@@ -4,10 +4,10 @@ class HelpPage extends StatefulWidget {
   const HelpPage({super.key});
 
   @override
-  State<HelpPage> createState() => _HelpPageState();
+  State<HelpPage> createState() => _MyAccountState();
 }
 
-class _HelpPageState extends State<HelpPage> {
+class _MyAccountState extends State<HelpPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -4,17 +4,17 @@ class MyAccount extends StatefulWidget {
   const MyAccount({super.key});
 
   @override
-  State<MyAccount> createState() => _MyAccountState();
+  State<MyAccount> createState() => _YouPageState();
 }
 
-class _MyAccountState extends State<MyAccount> {
+class _YouPageState extends State<MyAccount> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.pink.shade300,
         title: Text(
-          'My Account',
+          'Account',
           style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
         ),
       ),
@@ -22,5 +22,6 @@ class _MyAccountState extends State<MyAccount> {
         child: Text('heyy'),
       ),
     );
+    ;
   }
 }
